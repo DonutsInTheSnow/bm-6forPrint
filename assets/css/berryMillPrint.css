@@ -1,0 +1,26 @@
+  body {
+      margin: 0;
+      background-color: #fff;
+      color: #000;
+      display: block;
+      font-size: 20px;
+      width: 100%;
+  }
+
+  header, footer, nav, a, img[src*="assets/img/lazy_img.png"], .fig-caption {
+      display: none;
+  }
+
+  #printButton{
+      display: none;
+  }
+
+  main {
+      text-align: center;
+  }
+
+  main::after {
+      content: "Copyright landbanknh.org";
+      display: block;
+      text-align: center;
+  }
